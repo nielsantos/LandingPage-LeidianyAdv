@@ -1,0 +1,38 @@
+.img_background {
+    background-image: url("/assets/algema_preso.jpg"); /* The image used */
+    background-color: #ccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.btn-wpp {
+    color: #fff;
+    font-weight: 700;
+    border-color: #0cb100;
+    background-color: #0cb100;
+    letter-spacing: 0.05em;
+    border-radius: 4rem;
+    padding: 0.7rem 3rem;
+    font-size: 1.3rem;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.btn-wpp:hover,
+:focus {
+    color: #0cb100;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.span_mark {
+    color: #990000;
+}
+
+@media (max-width: 575.98px) {
+    .btn-wpp {
+        padding: 0.8rem 1.1rem;
+        font-size: 0.9rem;
+    }
+}
