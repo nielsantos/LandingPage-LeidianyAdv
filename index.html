@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Advogada Criminal - Leidiany Santos</title>
+        <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
@@ -20,131 +22,199 @@
     <body>
         <section class="position-relative img_background">
             <div class="h-100 w-100 bg-black opacity-75 position-absolute"></div>
-            <div class="h-100 d-flex justify-content-center flex-column position-relative py-5">
-                <div class="d-flex justify-content-center text-center text-white m-2 p-2">
-                    <h1 class="display-2 fw-bold">
+            <div class="h-100 d-flex flex-column align-items-center position-relative py-5">
+                <div class="m-3">
+                    <h1 class="display-2 fw-bold text-white text-center">
                         Advogada <span class="span_mark">Criminal</span>
                     </h1>
                 </div>
-                <div class="d-flex justify-content-center text-center m-2 p-2">
-                    <h4 style="color: #ffa500">Atendimento 24 HORAS!</h4>
+                <div class="m-3">
+                    <h4 class="text-center" style="color: #ffa500">Atendimento 24 HORAS!</h4>
                 </div>
-                <hr class="w-75 bg-white align-self-center" style="height: 0.15em" />
-                <div class="d-flex justify-content-center text-center text-white m-2 p-2">
-                    <h4 class="fw-normal">
+                <hr class="w-75 bg-white" style="height: 0.15em" />
+                <div class="m-3">
+                    <h4 class="fw-normal text-white text-center">
                         Precisa de um especialista para
                         <span class="fw-bold">defender os seus direitos</span>?
                     </h4>
                 </div>
-                <div class="d-flex justify-content-center m-2 p-2">
+                <div class="m-3">
                     <a
                         href="https://api.whatsapp.com/send?phone=5524988140638&text=Oi%2C%20vi%20seu%20an%C3%BAncio%20na%20internet%20e%20preciso%20de%20um%20especialista%20em%20Direito%20Criminal!"
                         target="_blank"
                         type="button"
-                        class="btn btn-wpp"
+                        class="btn btn_wpp"
                     >
                         <i class="bi bi-whatsapp"></i>
-                        CLIQUE AQUI E ENVIE SUA MENSAGEM!
+                        CLIQUE AQUI E FALE COMIGO!
                     </a>
                 </div>
             </div>
         </section>
         <section class="position-relative">
-            <div class="p-4 pt-5 text-center">
-                <h2 class="fw-bold">COMO POSSO TE AJUDAR:</h2>
-            </div>
-            <div class="row mx-5">
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="d-flex p-3">
-                        <div class="d-flex justify-content-end" style="flex: 0.5">
-                            <img src="/assets/icons/habeas_corpus_icon.png" width="96" />
+            <div class="m-5">
+                <div class="text-center p-lg-1">
+                    <h2 class="fw-bold">COMO POSSO TE AJUDAR:</h2>
+                </div>
+                <div id="list_itens" class="row gx-0 m-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="d-flex align-items-center p-3">
+                            <div class="d-flex justify-content-end" style="flex: 0.4">
+                                <img src="/assets/icons/habeas_corpus_icon.png" width="72" />
+                            </div>
+                            <div style="flex: 1">
+                                <h4 class="h4 fw-bold span_mark ms-3 mb-0">Habeas Corpus</h4>
+                            </div>
                         </div>
-                        <div class="d-flex align-items-center ps-3" style="flex: 1">
-                            <h4 class="h4 fw-bold span_mark">Habeas Corpus</h4>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="d-flex align-items-center p-3">
+                            <div class="d-flex justify-content-end" style="flex: 0.4">
+                                <img src="/assets/icons/audiencia_icon.png" width="72" />
+                            </div>
+                            <div style="flex: 1">
+                                <h4 class="h4 fw-bold span_mark ms-3 mb-0">
+                                    Audiência de Custódia
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="d-flex align-items-center p-3">
+                            <div class="d-flex justify-content-end" style="flex: 0.4">
+                                <img src="/assets/icons/liberdade_provisoria_icon.png" width="72" />
+                            </div>
+                            <div style="flex: 1">
+                                <h4 class="h4 fw-bold span_mark ms-3 mb-0">
+                                    Pedido de Liberdade Provisória
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="d-flex align-items-center p-3">
+                            <div class="d-flex justify-content-end" style="flex: 0.4">
+                                <img src="/assets/icons/acomp_deleg_icon.png" width="72" />
+                            </div>
+                            <div style="flex: 1">
+                                <h4 class="h4 fw-bold span_mark ms-3 mb-0">
+                                    Acompanhamento em Delegacia
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="d-flex align-items-center p-3">
+                            <div class="d-flex justify-content-end" style="flex: 0.4">
+                                <img src="/assets/icons/prisao_preventiva_icon.png" width="72" />
+                            </div>
+                            <div style="flex: 1">
+                                <h4 class="h4 fw-bold span_mark ms-3 mb-0">
+                                    Revogação de Prisão Preventiva
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+                        <div class="d-flex align-items-center p-3">
+                            <div class="d-flex justify-content-end" style="flex: 0.4">
+                                <img src="/assets/icons/exec_pena_icon.png" width="72" />
+                            </div>
+                            <div style="flex: 1">
+                                <h4 class="h4 fw-bold span_mark ms-3 mb-0">Execução Penal</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="d-flex m-3">
-                        <div class="d-flex justify-content-end" style="flex: 0.5">
-                            <img src="/assets/icons/audiencia_icon.png" width="96" />
-                        </div>
-                        <div class="d-flex align-items-center ps-3" style="flex: 1">
-                            <h4 class="h4 fw-bold span_mark">Audiência de Custódia</h4>
-                        </div>
+                <div class="text-center">
+                    <div class="p-3">
+                        <h4>
+                            Não encontrou o que precisa?
+                            <span class="fw-bold"
+                                >Clique no botão abaixo e fale com uma advogada!</span
+                            >
+                        </h4>
+                    </div>
+                    <div>
+                        <a
+                            href="https://api.whatsapp.com/send?phone=5524988140638&text=Oi%2C%20vi%20seu%20an%C3%BAncio%20na%20internet%20e%20preciso%20de%20um%20especialista%20em%20Direito%20Criminal!"
+                            target="_blank"
+                            type="button"
+                            class="btn btn_wpp"
+                        >
+                            <i class="bi bi-whatsapp"></i>
+                            ENVIAR MENSAGEM!
+                        </a>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="d-flex m-3">
-                        <div class="d-flex justify-content-end" style="flex: 0.5">
-                            <img src="/assets/icons/liberdade_provisoria_icon.png" width="96" />
-                        </div>
-                        <div class="d-flex align-items-center ps-3" style="flex: 1">
-                            <h4 class="h4 fw-bold span_mark">Pedido de Liberdade Provisória</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="d-flex m-3">
-                        <div class="d-flex justify-content-end" style="flex: 0.5">
-                            <img src="/assets/icons/acomp_deleg_icon.png" width="96" />
-                        </div>
-                        <div class="d-flex align-items-center ps-3" style="flex: 1">
-                            <h4 class="h4 fw-bold span_mark">Acompanhamento em Delegacia</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="d-flex m-3">
-                        <div class="d-flex justify-content-end" style="flex: 0.5">
-                            <img src="/assets/icons/prisao_preventiva_icon.png" width="96" />
-                        </div>
-                        <div class="d-flex align-items-center ps-3" style="flex: 1">
-                            <h4 class="h4 fw-bold span_mark">Revogação de Prisão Preventiva</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="d-flex m-3">
-                        <div class="d-flex justify-content-end" style="flex: 0.5">
-                            <img src="/assets/icons/exec_pena_icon.png" width="96" />
-                        </div>
-                        <div class="d-flex align-items-center ps-3" style="flex: 1">
-                            <h4 class="h4 fw-bold span_mark">Execução Penal</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="vw-75 align-self-center mx-5" />
-            <div class="d-flex justify-content-center text-center m-2 p-2">
-                <h4 class="fw-bold">Não encontrou o que precisa?</h4>
-            </div>
-            <div class="d-flex justify-content-center m-2 p-2">
-                <a
-                    href="https://api.whatsapp.com/send?phone=5524988140638&text=Oi%2C%20vi%20seu%20an%C3%BAncio%20na%20internet%20e%20preciso%20de%20um%20especialista%20em%20Direito%20Criminal!"
-                    target="_blank"
-                    type="button"
-                    class="btn btn-wpp"
-                >
-                    <i class="bi bi-whatsapp"></i>
-                    CLIQUE AQUI E FALE COMIGO!
-                </a>
             </div>
         </section>
-        <section class="position-relative bg-black">
-            <div class="d-flex">
-                <div>
-                    <h2 class="display-6">
-                        Sócio fundador da LS Advogados & Associados.<br /><br />Pós graduada em
-                        Direito e Processo do Crime. <br />Pós graduanda em Direito Penal.
-                        <br /><br />Advogada atuante nas áreas penal e criminal.
-                    </h2>
+        <section class="bg-dark">
+            <div class="row align-items-center gx-0 m-3">
+                <div class="col-sm-12 col-md-6">
+                    <div class="p-3">
+                        <img src="assets/foto.jpg" width="100%" />
+                        <!--verificar como melhorar a responsividade da foto-->
+                    </div>
                 </div>
-                <div>
-                    <img src="assets/algema_martelo.jpg" />
+                <div class="col-sm-12 col-md-6">
+                    <div class="d-flex flex-column text-white p-5">
+                        <h3 class="fw-bold text-center">
+                            Advogada Criminalista -
+                            <span class="span_mark">Leidiany Santos</span>
+                        </h3>
+                        <h5 class="fw-bold">OAB/RJ: 246.683</h5>
+                        <p>
+                            Sócia fundadora da <b>L&S Advogados.</b><br /><br />Graduada em Direito
+                            pela Faculdade Estácio de Sá.<br />Pós graduada em Direito Penal.
+                            <br /><br />Atuante nas áreas penal e criminal.
+                        </p>
+                        <p>
+                            "Na resolução de cada conflito, trabalhamos de forma moral e ética,
+                            buscando entregar para o cliente o melhor resultado. Dessa forma fazemos
+                            nosso trabalho com muita coragem, persistência e honestidade, visando a
+                            satisfação de nossos clientes."
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-center m-5 mt-3">
+                        <a
+                            href="https://api.whatsapp.com/send?phone=5524988140638&text=Oi%2C%20vi%20seu%20an%C3%BAncio%20na%20internet%20e%20preciso%20de%20um%20especialista%20em%20Direito%20Criminal!"
+                            target="_blank"
+                            type="button"
+                            class="btn btn_wpp icon"
+                        >
+                            <i class="bi bi-whatsapp"></i
+                        ></a>
+                    </div>
                 </div>
             </div>
         </section>
+        <section>
+            <div class="d-flex flex-column align-items-center p-4">
+                <div class="py-3">
+                    <img src="/assets/ls_logo.png" class="rounded-circle shadow" width="100px" />
+                </div>
+                <div class="pt-3">
+                    <h6 class="fw-bold">
+                        <i class="bi bi-envelope-fill px-2"></i>leidy.as81@gmail.com
+                    </h6>
+                </div>
+                <div>
+                    <h6 class="fw-bold"><i class="bi bi-whatsapp px-2"></i>(24) 98814-0638</h6>
+                </div>
+                <div>
+                    <h6 class="fw-bold px-2">
+                        <i class="bi bi-telephone-fill px-2"></i>(24) 2221-2746
+                    </h6>
+                </div>
+            </div>
+        </section>
+        <div class="bg-black text-center font-monospace py-2">
+            <small class="text-white">Todos os direitos reservados 2022 © Leidiany Santos</small>
+            <br />
+            <small class="text-white-50"
+                >Criação de sites - Gestão de Google Ads - Otimização de SEO | Daniel Santos</small
+            >
+        </div>
     </body>
 </html>
