@@ -3,11 +3,11 @@ body {
 }
 
 .img_background {
-    background-image: url("/assets/algema_preso.jpg"); /* The image used */
-    background-color: #bbb; /* Used if the image is unavailable */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url("/assets/algema_preso.jpg");
+    background-color: #bbb;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .btn_wpp {
@@ -17,8 +17,8 @@ body {
     background-color: #0cb100;
     letter-spacing: 0.05rem;
     border-radius: 4rem;
-    padding: 0.7rem 3rem;
-    font-size: 1.3rem;
+    padding: 0.6rem 2.5rem;
+    font-size: 1.25rem;
     transition: 0.5s;
     transform: scale(1);
 }
@@ -27,7 +27,6 @@ body {
 :focus {
     color: #0cb100;
     background-color: #fff;
-    transform: scale(1.1);
 }
 
 .btn_wpp_icon {
@@ -43,13 +42,8 @@ body {
 }
 
 @media (max-width: 575.98px) {
-    .btn_wpp:not(.icon) {
-        padding: 0.8rem 1.1rem;
-        font-size: 0.9rem;
-    }
-
     #list_itens h4 {
-        font-size: calc(1rem + 0.3vw);
+        font-size: calc(1rem + 0.5vw);
     }
 }
 
