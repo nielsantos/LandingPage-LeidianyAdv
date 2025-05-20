@@ -3,7 +3,7 @@ body {
 }
 
 .img_background {
-    background-image: url("/assets/algema_preso.jpg");
+    background-image: url("assets/algema_preso.jpg");
     background-color: #bbb;
     background-position: center;
     background-repeat: no-repeat;
