@@ -1,6 +1,6 @@
 # LandingPage-LeidianyAdv
 
-**Este projeto é uma landing page desenvolvida para uma advogada com foco em direito criminal. A página foi criada utilizando HTML e CSS puros, proporcionando uma estrutura simples e eficaz para apresentação de informações profissionais.**
+**Este projeto é uma landing page desenvolvida para uma advogada com foco em direito criminal. A página foi criada utilizando HTML, CSS e Bootstrap, proporcionando uma estrutura responsiva, simples e eficaz para apresentação das informações profissionais.**
 
   </br>
   
@@ -8,8 +8,9 @@
 A landing page inclui:
 * [x] Design responsivo para diferentes dispositivos.
 * [x] Seções informativas sobre serviços jurídicos.
+* [X] Chamadas _call-to-action_ para contato imediato.
 * [x] Estilo personalizado através do arquivo CSS.
-* [x] Organização de ativos em uma pasta dedicada.
+* [x] Organização de _assets_ em uma pasta dedicada.
 
   </br>
   
@@ -34,16 +35,15 @@ LandingPage-LeidianyAdv/
   
 ## 🚀 Como Visualizar
 1. Clone o repositório: ``git clone https://github.com/nielsantos/LandingPage-LeidianyAdv.git``
-2. Abra o arquivo ``advogada-criminal.html`` em seu navegador preferido.
+2. Abra o arquivo ``advogada-criminal.html`` em seu navegador.
 
   </br>
   
 ## 📌 Observações
-* Não há dependências externas ou bibliotecas utilizadas.
+* Utiliza o framework _Bootstrap_ para uma responsividade mais assertiva.
 * O projeto é estático e não requer servidor backend.
-* Ideal para ser hospedado em plataformas como GitHub Pages ou Netlify.
 
   </br>
   
 ## 📬 Contato
-Para sugestões ou colaborações, sinta-se à vontade para abrir uma issue ou entrar em contato com o autor do repositório.
+Para sugestões ou colaborações, sinta-se à vontade para entrar em contato.
